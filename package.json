@@ -1,0 +1,26 @@
+{
+  "name": "@manenderk/js-utils",
+  "version": "0.0.1",
+  "description": "Javascript Utility Functions",
+  "source": "src/index.ts",
+  "main": "dist/main.js",
+  "module": "dist/module.js",
+  "types": "dist/types.d.ts",
+  "author": "Manender",
+  "license": "MIT",
+  "scripts": {
+    "watch": "parcel watch",
+    "build": "parcel build"
+  },
+  "devDependencies": {
+    "@parcel/packager-ts": "2.6.2",
+    "@parcel/transformer-typescript-tsc": "^2.6.2",
+    "@parcel/transformer-typescript-types": "2.6.2",
+    "parcel": "^2.6.2",
+    "typescript": ">=3.0.0"
+  },
+  "dependencies": {
+    "bootstrap": "5",
+    "bootstrap4": "npm:bootstrap@4"
+  }
+}
