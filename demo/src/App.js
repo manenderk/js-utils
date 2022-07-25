@@ -5,6 +5,7 @@ import MainPage from "./Pages/MainPage";
 import BootstrapPage from "./Pages/BootstrapPage";
 import BootstrapModalPage from "./Pages/Bootstrap/BootstrapModalPage";
 import URLQueryParamsPage from "./Pages/URL/URLQueryParamsPage";
+import SentencesPage from "./Pages/Sentences/SentencesPage";
 
 function App() {
   return (
@@ -52,6 +53,9 @@ function App() {
             </Routes>
             <Routes>
               <Route path="/url/queryparams" element={<URLQueryParamsPage />} />
+            </Routes>
+            <Routes>
+              <Route path="/strings/sentences" element={<SentencesPage />} />
             </Routes>
           </div>
           

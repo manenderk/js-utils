@@ -5,6 +5,7 @@ import {
   toggleBootstrapMoal,
 } from "./bootstrap/bootstrap_utilities";
 import { getQueryParamValue, getQueryParams } from "./url/query_params";
+import { capitalizeFirstLetter } from "./strings/sentences";
 
 export {
   SayHello,
@@ -13,4 +14,5 @@ export {
   toggleBootstrapMoal,
   getQueryParamValue,
   getQueryParams,
+  capitalizeFirstLetter
 };

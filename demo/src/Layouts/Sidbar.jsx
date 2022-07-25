@@ -59,6 +59,28 @@ const Sidbar = () => {
             </ul>
           </div>
         </li>
+        <li className="nav-item">
+          <a
+            className="nav-link"
+            data-toggle="collapse"
+            href="#str_components_menu"
+            aria-expanded="false"
+            aria-controls="str_components_menu"
+          >
+            <i className="icon-layout menu-icon" />
+            <span className="menu-title">Strings</span>
+            <i className="menu-arrow" />
+          </a>
+          <div className="collapse" id="str_components_menu">
+            <ul className="nav flex-column sub-menu">
+              <li className="nav-item">
+                <NavLink to="/strings/sentences" className="nav-link">
+                  Sentences
+                </NavLink>
+              </li>
+            </ul>
+          </div>
+        </li>
       </ul>
     </nav>
   );
