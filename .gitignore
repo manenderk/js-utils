@@ -1,4 +1,6 @@
 node_modules
 demo/node_modules
+.vscode
+demo/.vscode
 .parcel-cache
 dist

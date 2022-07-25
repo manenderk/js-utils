@@ -1,7 +1,10 @@
 import { SayHello } from "./experimental/SayHello";
-import { showBootstrapModal, hideBootstrapModal, toggleBootstrapMoal } from "./bootstrap/bootstrap_utilities";
-import getQueryParamValue from "./url/getQueryParamValue";
-import getQueryParams from "./url/getQueryParam";
+import {
+  showBootstrapModal,
+  hideBootstrapModal,
+  toggleBootstrapMoal,
+} from "./bootstrap/bootstrap_utilities";
+import { getQueryParamValue, getQueryParams } from "./url/query_params";
 
 export {
   SayHello,
@@ -9,5 +12,5 @@ export {
   hideBootstrapModal,
   toggleBootstrapMoal,
   getQueryParamValue,
-  getQueryParams
+  getQueryParams,
 };

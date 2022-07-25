@@ -8,6 +8,8 @@
   "types": "dist/types.d.ts",
   "author": "Manender",
   "license": "MIT",
+  "browserslist": "> 0.5%, last 2 versions, not dead",
+  "isLibrary": true,
   "scripts": {
     "watch": "parcel watch",
     "build": "parcel build"
@@ -20,7 +22,6 @@
     "typescript": ">=3.0.0"
   },
   "dependencies": {
-    "bootstrap": "5",
-    "bootstrap4": "npm:bootstrap@4"
+    "bootstrap": "5"
   }
 }
