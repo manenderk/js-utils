@@ -34,23 +34,27 @@ const Sidbar = () => {
                 </NavLink>
                 
               </li>
+            </ul>
+          </div>
+        </li>
+        <li className="nav-item">
+          <a
+            className="nav-link"
+            data-toggle="collapse"
+            href="#url_components_menu"
+            aria-expanded="false"
+            aria-controls="url_components_menu"
+          >
+            <i className="icon-layout menu-icon" />
+            <span className="menu-title">URL</span>
+            <i className="menu-arrow" />
+          </a>
+          <div className="collapse" id="url_components_menu">
+            <ul className="nav flex-column sub-menu">
               <li className="nav-item">
-                {" "}
-                <a
-                  className="nav-link"
-                  href="../../pages/ui-features/dropdowns.html"
-                >
-                  Dropdowns
-                </a>
-              </li>
-              <li className="nav-item">
-                {" "}
-                <a
-                  className="nav-link"
-                  href="../../pages/ui-features/typography.html"
-                >
-                  Typography
-                </a>
+                <NavLink to="/url/queryparams?first_name=manender&last_name=kumar" className="nav-link">
+                  Query Params
+                </NavLink>
               </li>
             </ul>
           </div>

@@ -4,6 +4,7 @@ import Sidbar from "./Layouts/Sidbar";
 import MainPage from "./Pages/MainPage";
 import BootstrapPage from "./Pages/BootstrapPage";
 import BootstrapModalPage from "./Pages/Bootstrap/BootstrapModalPage";
+import URLQueryParamsPage from "./Pages/URL/URLQueryParamsPage";
 
 function App() {
   return (
@@ -48,6 +49,9 @@ function App() {
             </Routes>
             <Routes>
               <Route path="/bootstrap/modals" element={<BootstrapModalPage />} />
+            </Routes>
+            <Routes>
+              <Route path="/url/queryparams" element={<URLQueryParamsPage />} />
             </Routes>
           </div>
           
