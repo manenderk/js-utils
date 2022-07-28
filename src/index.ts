@@ -4,7 +4,7 @@ import {
   hideBootstrapModal,
   toggleBootstrapMoal,
 } from "./bootstrap/bootstrap_utilities";
-import { getQueryParamValue, getQueryParams } from "./url/query_params";
+import { getQueryParamValue, getAllQueryParams } from "./url/query_params";
 import { capitalizeFirstLetter } from "./strings/sentences";
 
 export {
@@ -13,6 +13,6 @@ export {
   hideBootstrapModal,
   toggleBootstrapMoal,
   getQueryParamValue,
-  getQueryParams,
+  getAllQueryParams,
   capitalizeFirstLetter
 };
