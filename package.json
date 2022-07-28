@@ -1,6 +1,6 @@
 {
   "name": "@manenderk/js-utils",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Javascript Utility Functions",
   "source": "src/index.ts",
   "main": "dist/main.js",
