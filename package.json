@@ -12,13 +12,15 @@
   "isLibrary": true,
   "scripts": {
     "watch": "parcel watch",
-    "build": "parcel build"
+    "build": "parcel build",
+    "doc": "typedoc"
   },
   "devDependencies": {
     "@parcel/packager-ts": "2.6.2",
     "@parcel/transformer-typescript-tsc": "^2.6.2",
     "@parcel/transformer-typescript-types": "2.6.2",
     "parcel": "^2.6.2",
+    "typedoc": "^0.23.9",
     "typescript": ">=3.0.0"
   },
   "dependencies": {

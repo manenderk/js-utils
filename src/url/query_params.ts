@@ -1,13 +1,12 @@
-
 /**
  * Function that returns all query parameters as an object.
- * Example: 
+ * @example
  * Query String: ?first_name=John&last_name=Doe
- * Return Object: 
- * {
+ * Return Object:
+ * \{
  *    first_name: 'John',
  *    last_name: 'Doe'
- * }
+ * \}
  * @returns An object generated from query string where key is param name and value is param value
  */
 export const getAllQueryParams = (): {} => {
@@ -22,15 +21,14 @@ export const getAllQueryParams = (): {} => {
 
 /**
  * Function that return value of the specified paramter in the query string
- * Example: 
+ * @example
  * Query String: ?first_name=John&last_name=Doe
  * getQueryParamValue('first_name') will return 'John'
- * @param { string } paramName - Parameter for which value is required
- * @returns {string} - Value of the paramter
+ * @param paramName - Parameter for which value is required
+ * @returns Value of the paramter
  */
 export const getQueryParamValue = (paramName: string): string => {
   const queryString = window.location.search;
   const urlParams = new URLSearchParams(queryString);
   return urlParams.get(paramName);
 };
-
