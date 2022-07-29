@@ -1,16 +1,21 @@
 {
   "name": "@manenderk/js-utils",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Javascript Utility Functions",
   "source": "src/index.ts",
   "main": "dist/main.js",
   "module": "dist/module.js",
   "types": "dist/types.d.ts",
-  "author": "Manender",
+  "author": {
+    "name": "Manender",
+    "email": "manender.kumar@outlook.com",
+    "url": "https://manender.com"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/manenderk/js-utils"
   },
+  "homepage": "https://manenderk.github.io/js-utils/index.html",
   "license": "MIT",
   "browserslist": "> 0.5%, last 2 versions, not dead",
   "isLibrary": true,

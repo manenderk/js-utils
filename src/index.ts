@@ -6,6 +6,7 @@ import {
 import { getQueryParamValue, getAllQueryParams } from "./url/query_params";
 import { capitalizeFirstLetter, getCapitalizedString, getCaptializedStringFromArray } from "./strings/sentences";
 import { getFileFromDataURL } from "./medias/media";
+import { checkPasswordStrength, StrengthFactors, PasswordStrength } from './miscelleneous/password';
 
 export {
   showBootstrapModal,
@@ -16,5 +17,8 @@ export {
   capitalizeFirstLetter,
   getCapitalizedString,
   getCaptializedStringFromArray,
-  getFileFromDataURL
+  getFileFromDataURL,
+  checkPasswordStrength,
+  StrengthFactors,
+  PasswordStrength
 };

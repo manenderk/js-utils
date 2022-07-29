@@ -2,5 +2,6 @@
   "entryPoints": [
     "./src/index.ts"
   ],
-  "entryPointStrategy": "expand"
+  "entryPointStrategy": "expand",
+  "readme": "./README.md"
 }
