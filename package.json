@@ -1,6 +1,6 @@
 {
   "name": "@manenderk/js-utils",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Javascript Utility Functions",
   "source": "src/index.ts",
   "main": "dist/main.js",
@@ -32,7 +32,8 @@
     "typedoc": "^0.23.9",
     "typescript": ">=3.0.0"
   },
-  "dependencies": {
+  "dependencies": {},
+  "peerDependencies": {
     "bootstrap": "5"
   }
 }

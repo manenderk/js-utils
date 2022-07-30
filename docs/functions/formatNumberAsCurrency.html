@@ -1,4 +1,4 @@
-<!DOCTYPE html><html class="default" lang="en"><head><meta charSet="utf-8"/><meta http-equiv="x-ua-compatible" content="IE=edge"/><title>getAllQueryParams | @manenderk/js-utils</title><meta name="description" content="Documentation for @manenderk/js-utils"/><meta name="viewport" content="width=device-width, initial-scale=1"/><link rel="stylesheet" href="../assets/style.css"/><link rel="stylesheet" href="../assets/highlight.css"/><script async src="../assets/search.js" id="search-script"></script></head><body><script>document.documentElement.dataset.theme = localStorage.getItem("tsd-theme") || "os"</script><header class="tsd-page-toolbar">
+<!DOCTYPE html><html class="default" lang="en"><head><meta charSet="utf-8"/><meta http-equiv="x-ua-compatible" content="IE=edge"/><title>formatNumberAsCurrency | @manenderk/js-utils</title><meta name="description" content="Documentation for @manenderk/js-utils"/><meta name="viewport" content="width=device-width, initial-scale=1"/><link rel="stylesheet" href="../assets/style.css"/><link rel="stylesheet" href="../assets/highlight.css"/><script async src="../assets/search.js" id="search-script"></script></head><body><script>document.documentElement.dataset.theme = localStorage.getItem("tsd-theme") || "os"</script><header class="tsd-page-toolbar">
 <div class="tsd-toolbar-contents container">
 <div class="table-cell" id="tsd-search" data-base="..">
 <div class="field"><label for="tsd-search-field" class="tsd-widget search no-caption"><svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M15.7824 13.833L12.6666 10.7177C12.5259 10.5771 12.3353 10.499 12.1353 10.499H11.6259C12.4884 9.39596 13.001 8.00859 13.001 6.49937C13.001 2.90909 10.0914 0 6.50048 0C2.90959 0 0 2.90909 0 6.49937C0 10.0896 2.90959 12.9987 6.50048 12.9987C8.00996 12.9987 9.39756 12.4863 10.5008 11.6239V12.1332C10.5008 12.3332 10.5789 12.5238 10.7195 12.6644L13.8354 15.7797C14.1292 16.0734 14.6042 16.0734 14.8948 15.7797L15.7793 14.8954C16.0731 14.6017 16.0731 14.1267 15.7824 13.833ZM6.50048 10.499C4.29094 10.499 2.50018 8.71165 2.50018 6.49937C2.50018 4.29021 4.28781 2.49976 6.50048 2.49976C8.71001 2.49976 10.5008 4.28708 10.5008 6.49937C10.5008 8.70852 8.71314 10.499 6.50048 10.499Z" fill="var(--color-text)"></path></svg></label><input type="text" id="tsd-search-field" aria-label="Search"/></div>
@@ -11,23 +11,33 @@
 <div class="tsd-page-title">
 <ul class="tsd-breadcrumb">
 <li><a href="../modules.html">@manenderk/js-utils</a></li>
-<li><a href="getAllQueryParams.html">getAllQueryParams</a></li></ul>
-<h1>Function getAllQueryParams</h1></div>
+<li><a href="formatNumberAsCurrency.html">formatNumberAsCurrency</a></li></ul>
+<h1>Function formatNumberAsCurrency</h1></div>
 <section class="tsd-panel">
 <ul class="tsd-signatures tsd-kind-function">
-<li class="tsd-signature tsd-anchor-link" id="getAllQueryParams">get<wbr/>All<wbr/>Query<wbr/>Params<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-symbol">{}</span><a href="#getAllQueryParams" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none" id="icon-anchor-a"></path><path d="M10 14a3.5 3.5 0 0 0 5 0l4 -4a3.5 3.5 0 0 0 -5 -5l-.5 .5" id="icon-anchor-b"></path><path d="M14 10a3.5 3.5 0 0 0 -5 0l-4 4a3.5 3.5 0 0 0 5 5l.5 -.5" id="icon-anchor-c"></path></svg></a></li>
+<li class="tsd-signature tsd-anchor-link" id="formatNumberAsCurrency">format<wbr/>Number<wbr/>As<wbr/>Currency<span class="tsd-signature-symbol">(</span>num<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">number</span>, currency<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">string</span>, locale<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span><a href="#formatNumberAsCurrency" aria-label="Permalink" class="tsd-anchor-icon"><svg class="icon icon-tabler icon-tabler-link" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none" id="icon-anchor-a"></path><path d="M10 14a3.5 3.5 0 0 0 5 0l4 -4a3.5 3.5 0 0 0 -5 -5l-.5 .5" id="icon-anchor-b"></path><path d="M14 10a3.5 3.5 0 0 0 -5 0l-4 4a3.5 3.5 0 0 0 5 5l.5 -.5" id="icon-anchor-c"></path></svg></a></li>
 <li class="tsd-description">
-<div class="tsd-comment tsd-typography"><p>Function that returns all query parameters as an object.</p>
-
-<h3>Example</h3><pre><code class="language-ts"><span class="hl-0">Query</span><span class="hl-1"> </span><span class="hl-2">String</span><span class="hl-1">: ?</span><span class="hl-0">first_name</span><span class="hl-1">=</span><span class="hl-0">John</span><span class="hl-1">&amp;</span><span class="hl-0">last_name</span><span class="hl-1">=</span><span class="hl-0">Doe</span><br/><span class="hl-0">Return</span><span class="hl-1"> </span><span class="hl-7">Object</span><span class="hl-1">:</span><br/><span class="hl-1">{</span><br/><span class="hl-1">   </span><span class="hl-2">first_name</span><span class="hl-1">: </span><span class="hl-3">&#39;John&#39;</span><span class="hl-1">,</span><br/><span class="hl-1">   </span><span class="hl-2">last_name</span><span class="hl-1">: </span><span class="hl-3">&#39;Doe&#39;</span><br/><span class="hl-1">}</span>
-</code></pre>
-
-<h3>Returns</h3><p>An object generated from query string where key is param name and value is param value</p>
+<div class="tsd-comment tsd-typography">
+<h3>Returns</h3><p>Number formatted in currency</p>
 </div>
-<h4 class="tsd-returns-title">Returns <span class="tsd-signature-symbol">{}</span></h4>
-<ul class="tsd-parameters"></ul><aside class="tsd-sources">
+<div class="tsd-parameters">
+<h4 class="tsd-parameters-title">Parameters</h4>
+<ul class="tsd-parameter-list">
+<li>
+<h5>num: <span class="tsd-signature-type">string</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">number</span></h5>
+<div class="tsd-comment tsd-typography"><p>Number value to be formatted</p>
+</div></li>
+<li>
+<h5>currency: <span class="tsd-signature-type">string</span><span class="tsd-signature-symbol"> = &quot;USD&quot;</span></h5>
+<div class="tsd-comment tsd-typography"><p>Curreny alphabetic code underwhich which number to be formatted. Default is USD</p>
+</div></li>
+<li>
+<h5><code class="tsd-tag ts-flagOptional">Optional</code> locale: <span class="tsd-signature-type">string</span></h5>
+<div class="tsd-comment tsd-typography"><p>Language locale. Default is locale set in user&#39;s machine</p>
+</div></li></ul></div>
+<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">string</span></h4><aside class="tsd-sources">
 <ul>
-<li>Defined in <a href="https://github.com/manenderk/js-utils/blob/1709cce/src/url/query_params.ts#L12">url/query_params.ts:12</a></li></ul></aside></li></ul></section></div>
+<li>Defined in <a href="https://github.com/manenderk/js-utils/blob/1709cce/src/numbers/currency.ts#L10">numbers/currency.ts:10</a></li></ul></aside></li></ul></section></div>
 <div class="col-4 col-menu menu-sticky-wrap menu-highlight">
 <div class="tsd-navigation settings">
 <details class="tsd-index-accordion"><summary class="tsd-accordion-summary">
@@ -55,8 +65,8 @@
 <li class="tsd-kind-enum"><a href="../enums/StrengthFactors.html" class="tsd-index-link"><svg class="tsd-kind-icon" width="24" height="24" viewBox="0 0 24 24"><use href="#icon-8-path"></use><use href="#icon-8-text"></use></svg>Strength<wbr/>Factors</a></li>
 <li class="tsd-kind-function"><a href="capitalizeFirstLetter.html" class="tsd-index-link"><svg class="tsd-kind-icon" width="24" height="24" viewBox="0 0 24 24"><rect fill="var(--color-icon-background)" stroke="var(--color-ts-function)" stroke-width="1.5" x="1" y="1" width="22" height="22" rx="6" id="icon-64-path"></rect><path d="M9.39 16V7.24H14.55V8.224H10.446V11.128H14.238V12.112H10.47V16H9.39Z" fill="var(--color-text)" id="icon-64-text"></path></svg>capitalize<wbr/>First<wbr/>Letter</a></li>
 <li class="tsd-kind-function"><a href="checkPasswordStrength.html" class="tsd-index-link"><svg class="tsd-kind-icon" width="24" height="24" viewBox="0 0 24 24"><use href="#icon-64-path"></use><use href="#icon-64-text"></use></svg>check<wbr/>Password<wbr/>Strength</a></li>
-<li class="tsd-kind-function"><a href="formatNumberAsCurrency.html" class="tsd-index-link"><svg class="tsd-kind-icon" width="24" height="24" viewBox="0 0 24 24"><use href="#icon-64-path"></use><use href="#icon-64-text"></use></svg>format<wbr/>Number<wbr/>As<wbr/>Currency</a></li>
-<li class="current tsd-kind-function"><a href="getAllQueryParams.html" class="tsd-index-link"><svg class="tsd-kind-icon" width="24" height="24" viewBox="0 0 24 24"><use href="#icon-64-path"></use><use href="#icon-64-text"></use></svg>get<wbr/>All<wbr/>Query<wbr/>Params</a></li>
+<li class="current tsd-kind-function"><a href="formatNumberAsCurrency.html" class="tsd-index-link"><svg class="tsd-kind-icon" width="24" height="24" viewBox="0 0 24 24"><use href="#icon-64-path"></use><use href="#icon-64-text"></use></svg>format<wbr/>Number<wbr/>As<wbr/>Currency</a></li>
+<li class="tsd-kind-function"><a href="getAllQueryParams.html" class="tsd-index-link"><svg class="tsd-kind-icon" width="24" height="24" viewBox="0 0 24 24"><use href="#icon-64-path"></use><use href="#icon-64-text"></use></svg>get<wbr/>All<wbr/>Query<wbr/>Params</a></li>
 <li class="tsd-kind-function"><a href="getCapitalizedString.html" class="tsd-index-link"><svg class="tsd-kind-icon" width="24" height="24" viewBox="0 0 24 24"><use href="#icon-64-path"></use><use href="#icon-64-text"></use></svg>get<wbr/>Capitalized<wbr/>String</a></li>
 <li class="tsd-kind-function"><a href="getCaptializedStringFromArray.html" class="tsd-index-link"><svg class="tsd-kind-icon" width="24" height="24" viewBox="0 0 24 24"><use href="#icon-64-path"></use><use href="#icon-64-text"></use></svg>get<wbr/>Captialized<wbr/>String<wbr/>From<wbr/>Array</a></li>
 <li class="tsd-kind-function"><a href="getFileFromDataURL.html" class="tsd-index-link"><svg class="tsd-kind-icon" width="24" height="24" viewBox="0 0 24 24"><use href="#icon-64-path"></use><use href="#icon-64-text"></use></svg>get<wbr/>File<wbr/>From<wbr/>DataURL</a></li>

@@ -1,24 +1,39 @@
 import {
-  showBootstrapModal,
-  hideBootstrapModal,
-  toggleBootstrapMoal,
+  hideBootstrapModal, showBootstrapModal, toggleBootstrapMoal
 } from "./bootstrap/bootstrap_utilities";
-import { getQueryParamValue, getAllQueryParams } from "./url/query_params";
-import { capitalizeFirstLetter, getCapitalizedString, getCaptializedStringFromArray } from "./strings/sentences";
 import { getFileFromDataURL } from "./medias/media";
-import { checkPasswordStrength, StrengthFactors, PasswordStrength } from './miscelleneous/password';
+import { checkPasswordStrength, PasswordStrength, StrengthFactors } from './miscelleneous/password';
+import { formatNumberAsCurrency } from "./numbers/currency";
+import { capitalizeFirstLetter, getCapitalizedString, getCaptializedStringFromArray } from "./strings/sentences";
+import { getAllQueryParams, getQueryParamValue } from "./url/query_params";
+import { getUserCountryCallingCode } from "./miscelleneous/phone";
 
 export {
+  // Bootstrap
   showBootstrapModal,
   hideBootstrapModal,
   toggleBootstrapMoal,
+
+  // Query Params
   getQueryParamValue,
   getAllQueryParams,
+
+  //Currency
+  formatNumberAsCurrency,
+
+  // Sentences
   capitalizeFirstLetter,
   getCapitalizedString,
   getCaptializedStringFromArray,
+
+  // Media
   getFileFromDataURL,
+
+  // Passwords
   checkPasswordStrength,
   StrengthFactors,
-  PasswordStrength
+  PasswordStrength,
+
+  // Phone
+  getUserCountryCallingCode,
 };
